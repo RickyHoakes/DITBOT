@@ -17,8 +17,10 @@ their symptoms which they are currently experiencing due to the disease.
 
 # Planning and Scheduling:
 ->First We need to import the data from the dataset and clean the data for any null values and other symbols which are present while importing.
+
 ->After importing we can use tools such as tableu,seaborn library , ploty to visualize our dataset for getting the optimal train, test split ,
   a brief idea about the model predictions and much more.Then we need to split the data for training , validation and the test dataset for training 
   and testing our chatbot model.We need to preprocess the extracted data with domains such as tokenization , stemming , stop words removal for our data set.
+  
 ->Then we need a suitable ML algorithm (decision tree/KNN) to train our model with and get a optimal accuracy for our chatbot.Then we need to improve 
   our model with our validation dataset by setting up optimizations such as learning rate , number of epochs etc..
